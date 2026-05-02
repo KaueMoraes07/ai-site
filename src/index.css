@@ -96,7 +96,11 @@
     box-shadow: var(--shadow-elegant);
   }
   .text-gradient {
-    @apply bg-gradient-primary bg-clip-text text-transparent;
+    background-image: var(--gradient-primary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
   }
   .transition-smooth {
     transition: var(--transition-smooth);

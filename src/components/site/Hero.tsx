@@ -30,10 +30,8 @@ const Hero = () => (
           <ShieldCheck className="h-4 w-4" />
           Carreira em Tecnologia da Informação
         </div>
-        <h1 className="mb-6 text-4xl font-extrabold leading-tight tracking-tight md:text-6xl lg:text-7xl">
-          <span className="bg-gradient-primary bg-clip-text text-transparent">
-            Segurança da Informação
-          </span>
+        <h1 className="mb-6 text-4xl font-extrabold leading-tight tracking-tight md:text-6xl lg:text-7xl text-gradient">
+          Segurança da Informação
         </h1>
         <p className="mx-auto mb-8 max-w-2xl text-lg text-muted-foreground md:text-xl">
           A primeira linha de defesa dos dados e sistemas de uma organização —
