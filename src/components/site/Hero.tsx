@@ -37,14 +37,6 @@ const Hero = () => (
           A primeira linha de defesa dos dados e sistemas de uma organização —
           protegendo a confidencialidade, integridade e disponibilidade da informação.
         </p>
-        <div className="flex flex-wrap justify-center gap-4">
-          <Button asChild size="lg" className="bg-gradient-primary text-primary-foreground shadow-glow hover:opacity-90">
-            <a href="#profissao">Conheça a Profissão</a>
-          </Button>
-          <Button asChild size="lg" variant="outline">
-            <a href="#ods">Contribuição para os ODS</a>
-          </Button>
-        </div>
       </div>
 
       <div className="mx-auto mt-20 max-w-5xl">
