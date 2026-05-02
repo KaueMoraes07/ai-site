@@ -1,7 +1,7 @@
 import { Linkedin, Github, Mail } from "lucide-react";
 
 const members = [
-  { name: "Integrante 1", role: "Pesquisa & Conteúdo", initials: "I1", linkedin: "#", github: "#", email: "#" },
+  { name: "Kauê Moraes Archanjo", role: "Pesquisa & Conteúdo", initials: "KM", linkedin: "#", github: "#", email: "#" },
   { name: "Integrante 2", role: "Design & UX", initials: "I2", linkedin: "#", github: "#", email: "#" },
   { name: "Integrante 3", role: "Desenvolvimento", initials: "I3", linkedin: "#", github: "#", email: "#" },
   { name: "Integrante 4", role: "Apresentação", initials: "I4", linkedin: "#", github: "#", email: "#" },
