@@ -17,7 +17,7 @@ const Navbar = () => {
       <nav className="container mx-auto flex h-16 items-center justify-between px-4" aria-label="Principal">
         <a href="#inicio" className="flex items-center gap-2 font-bold">
           <Shield className="h-6 w-6 text-primary" aria-hidden="true" />
-          <span className="text-gradient">SecInfo</span>
+          <span className="bg-gradient-primary bg-clip-text text-transparent">Segurança da Informação</span>
         </a>
 
         <ul className="hidden items-center gap-8 md:flex">
