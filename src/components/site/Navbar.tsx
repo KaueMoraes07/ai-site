@@ -5,7 +5,7 @@ const links = [
   { href: "#inicio", label: "Início" },
   { href: "#profissao", label: "Sobre a Profissão" },
   { href: "#tendencias", label: "Dicas e Tendências" },
-  { href: "#contatos", label: "Redes e Contatos" },
+  { href: "#contatos", label: "Equipe criadora" },
   { href: "#ods", label: "ODS" },
 ];
 

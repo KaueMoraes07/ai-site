@@ -1,13 +1,13 @@
-import { Linkedin, Github, Mail } from "lucide-react";
+import { Linkedin, Github } from "lucide-react";
 import kaueImg from "@/assets/member-kaue.jpg";
 import marcosImg from "@/assets/member-marcos.jpg";
 import yuriImg from "@/assets/member-yuri.jpg";
 
 const members = [
-  { name: "Kauê Moraes Archanjo", role: "Pesquisa & Conteúdo", initials: "KM", photo: kaueImg, linkedin: "#", github: "https://github.com/KaueMoraes07", email: "#" },
-  { name: "Marcos Vinícius Ribeiro da Silva Santos", role: "Design & UX", initials: "MV", photo: marcosImg, linkedin: "#", github: "#", email: "#" },
-  { name: "Yuri Lima", role: "Desenvolvimento", initials: "YL", photo: yuriImg, linkedin: "#", github: "#", email: "#" },
-  { name: "Integrante 4", role: "Apresentação", initials: "I4", photo: null, linkedin: "#", github: "#", email: "#" },
+  { name: "Kauê Moraes Archanjo", role: "analistas e desenvolvedores", initials: "KM", photo: kaueImg, linkedin: "#", github: "https://github.com/KaueMoraes07" },
+  { name: "Marcos Vinícius Ribeiro da Silva Santos", role: "analistas e desenvolvedores", initials: "MV", photo: marcosImg, linkedin: "#", github: "#" },
+  { name: "Yuri Lima", role: "analistas e desenvolvedores", initials: "YL", photo: yuriImg, linkedin: "#", github: "#" },
+  { name: "Integrante 4", role: "analistas e desenvolvedores", initials: "I4", photo: null, linkedin: "#", github: "#" },
 ];
 
 const Contacts = () => (
@@ -15,7 +15,7 @@ const Contacts = () => (
     <div className="container mx-auto px-4">
       <div className="mx-auto mb-14 max-w-3xl text-center">
         <span className="mb-3 inline-block rounded-full border border-accent/30 bg-accent/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-accent">
-          Redes e Contatos
+          Equipe criadora
         </span>
         <h2 className="mb-4 text-3xl font-bold md:text-5xl">Conheça nosso grupo</h2>
         <p className="text-muted-foreground">
@@ -60,13 +60,6 @@ const Contacts = () => (
                 className="rounded-lg border border-border p-2 text-muted-foreground transition-smooth hover:border-primary hover:text-primary"
               >
                 <Github className="h-4 w-4" />
-              </a>
-              <a
-                href={m.email}
-                aria-label={`E-mail de ${m.name}`}
-                className="rounded-lg border border-border p-2 text-muted-foreground transition-smooth hover:border-primary hover:text-primary"
-              >
-                <Mail className="h-4 w-4" />
               </a>
             </div>
           </article>
