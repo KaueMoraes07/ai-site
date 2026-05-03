@@ -5,8 +5,8 @@ import yuriImg from "@/assets/member-yuri.jpg";
 
 const members = [
   { name: "Kauê Moraes Archanjo", role: "analistas e desenvolvedores", initials: "KM", photo: kaueImg, linkedin: "#", github: "https://github.com/KaueMoraes07" },
-  { name: "Marcos Vinícius Ribeiro da Silva Santos", role: "analistas e desenvolvedores", initials: "MV", photo: marcosImg, linkedin: "#", github: "#" },
-  { name: "Yuri Lima", role: "analistas e desenvolvedores", initials: "YL", photo: yuriImg, linkedin: "#", github: "#" },
+  { name: "Marcus Vinicius", role: "analistas e desenvolvedores", initials: "MV", photo: marcosImg, linkedin: "https://www.linkedin.com/in/marcus-vinicius-rs-santos", github: "https://github.com/Marcuvini21" },
+  { name: "Yuri Lima", role: "analistas e desenvolvedores", initials: "YL", photo: yuriImg, linkedin: "https://www.linkedin.com/in/yuri-lima-208805405", github: "https://github.com/YuriLima88" },
   { name: "Integrante 4", role: "analistas e desenvolvedores", initials: "I4", photo: null, linkedin: "#", github: "#" },
 ];
 
