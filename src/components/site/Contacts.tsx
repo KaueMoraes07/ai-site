@@ -2,12 +2,13 @@ import { Linkedin, Github } from "lucide-react";
 import kaueImg from "@/assets/member-kaue.jpg";
 import marcosImg from "@/assets/member-marcos.jpg";
 import yuriImg from "@/assets/member-yuri.jpg";
+import denisImg from "@/assets/member-denis.jpg";
 
 const members = [
   { name: "Kauê Moraes Archanjo", role: "analistas e desenvolvedores", initials: "KM", photo: kaueImg, linkedin: "#", github: "https://github.com/KaueMoraes07" },
   { name: "Marcus Vinicius", role: "analistas e desenvolvedores", initials: "MV", photo: marcosImg, linkedin: "https://www.linkedin.com/in/marcus-vinicius-rs-santos", github: "https://github.com/Marcuvini21" },
   { name: "Yuri Lima", role: "analistas e desenvolvedores", initials: "YL", photo: yuriImg, linkedin: "https://www.linkedin.com/in/yuri-lima-208805405", github: "https://github.com/YuriLima88" },
-  { name: "Integrante 4", role: "analistas e desenvolvedores", initials: "I4", photo: null, linkedin: "#", github: "#" },
+  { name: "Dênis Pereira da Silva", role: "analistas e desenvolvedores", initials: "DP", photo: denisImg, linkedin: "https://www.linkedin.com/in/denis-pereira-a8b7a5242/", github: "https://github.com/dashboard" },
 ];
 
 const Contacts = () => (
