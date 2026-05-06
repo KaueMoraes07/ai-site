@@ -24,23 +24,23 @@ const ODS = () => (
         </p>
       </div>
 
-      <div className="mb-12 grid gap-6 md:grid-cols-3">
-        {ods.map((o) => (
-          <article
-            key={o.num}
-            className="overflow-hidden rounded-2xl border border-border bg-gradient-card shadow-card transition-smooth hover:shadow-elegant"
-          >
-            <div className={`flex h-32 items-center justify-center bg-gradient-to-br ${o.color}`}>
-              <span className="text-5xl font-extrabold text-white drop-shadow-lg">ODS {o.num}</span>
+      <div className="mx-auto max-w-5xl rounded-2xl border border-primary/20 bg-gradient-card p-6 shadow-card md:p-10">
+        <div className="mb-8 grid gap-4 md:grid-cols-3">
+          {ods.map((o) => (
+            <div
+              key={o.num}
+              className="overflow-hidden rounded-xl border border-border shadow-card transition-smooth hover:shadow-elegant"
+            >
+              <div className={`flex h-24 items-center justify-center bg-gradient-to-br ${o.color}`}>
+                <span className="text-4xl font-extrabold text-white drop-shadow-lg">ODS {o.num}</span>
+              </div>
+              <div className="bg-background/40 p-4">
+                <h3 className="text-sm font-semibold">{o.title}</h3>
+              </div>
             </div>
-            <div className="p-6">
-              <h3 className="font-semibold">{o.title}</h3>
-            </div>
-          </article>
-        ))}
-      </div>
+          ))}
+        </div>
 
-      <div className="mx-auto max-w-4xl rounded-2xl border border-primary/20 bg-gradient-card p-8 shadow-card md:p-12">
         <h3 className="mb-4 text-xl font-bold md:text-2xl">
           Foco principal: ODS 9 — Indústria, Inovação e Infraestrutura
         </h3>
